@@ -1,2 +1,12 @@
 # Callbacks
-JS callbacks are functions passed as arguments to other functions 
+ 
+function myFirst() {
+  myDisplayer("Hello");
+}
+
+function mySecond() {
+  myDisplayer("Goodbye");
+}
+
+myFirst();
+mySecond();
